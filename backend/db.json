@@ -17,18 +17,6 @@
       "conteudo": "Teste 3 json",
       "autoria": "Angular Server",
       "modelo": "modelo3"
-    },
-    {
-      "conteudo": "teste crudao",
-      "autoria": "sei la em meu",
-      "modelo": "modelo2",
-      "id": 4
-    },
-    {
-      "conteudo": "teste crudao 2",
-      "autoria": "sei la em meu 2",
-      "modelo": "modelo1",
-      "id": 5
     }
   ]
 }
