@@ -12,6 +12,11 @@ export class ListarPensamentoComponent implements OnInit {
       conteudo: 'Comunicação entre componentes',
       autoria: 'Angular',
       modelo: 'modelo3'
+    },
+    {
+      conteudo: 'Comunicação entre Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla ',
+      autoria: 'Textão',
+      modelo: 'modelo2'
     }
   ];
   constructor() { }
