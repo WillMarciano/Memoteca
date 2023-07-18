@@ -12,14 +12,14 @@
       "conteudo": "Teste 2 json2 uhull",
       "autoria": "Angular Server",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 3,
       "conteudo": "Teste 3 json",
       "autoria": "Angular Server",
       "modelo": "modelo3",
-      "favorito": false
+      "favorito": true
     },
     {
       "conteudo": " Olha so que cara",
