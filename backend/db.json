@@ -4,48 +4,56 @@
       "id": 1,
       "conteudo": "Teste 1 json",
       "autoria": "Angular Server",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": true
     },
     {
       "id": 2,
       "conteudo": "Teste 2 json2 uhull",
       "autoria": "Angular Server",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "Teste 3 json",
       "autoria": "Angular Server",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "conteudo": " Olha so que cara",
       "autoria": "sei la meu",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 4
     },
     {
       "id": 5,
       "conteudo": "Teste 1 json",
       "autoria": "Angular Server",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "id": 6,
       "conteudo": "Teste 2 json2 uhull",
       "autoria": "Angular Server",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 7,
       "conteudo": "Teste 3 json",
       "autoria": "Angular Server",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "conteudo": " Olha so que cara",
       "autoria": "sei la meu",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 8
     }
   ]
