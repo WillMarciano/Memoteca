@@ -52,7 +52,12 @@ export class ListarPensamentoComponent implements OnInit {
   }
 
   meuMural() {
+    // location.reload();
     this.favoritos = false;
-    this.pesquisarPensamentos()
+    this.paginaAtual = 1;
+    // this.pesquisarPensamentos();
+    this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+    this.router.onSameUrlNavigation = 'reload';
+    this.router.navigate([this.router.url]);
   }
 }
