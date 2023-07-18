@@ -5,7 +5,7 @@
       "conteudo": "Tetsse 1 json",
       "autoria": "Angular Server",
       "modelo": "modelo1",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 2,
@@ -19,7 +19,7 @@
       "conteudo": "Teste 3 json",
       "autoria": "Angular Server",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "conteudo": " Olha so que cara",
