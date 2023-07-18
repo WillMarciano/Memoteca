@@ -9,6 +9,9 @@
         <div class="mensagem__erro"
             *ngIf="formulario.get('conteudo')?.errors?.['required'] && formulario.get('autoria')?.touched">Campo
             obrigatório</div>
+        <div class="mensagem__erro"
+            *ngIf="formulario.get('conteudo')?.errors?.['minlength'] && formulario.get('conteudo')?.touched">Campo precisa
+            ter no mínimo 3 caracteres!</div>
         <label for="autoria">Autoria</label>
         <input type="textarea" class="input" id="autoria" formControlName="autoria"
             placeholder="Digite a autoria ou fonte">
@@ -67,7 +70,8 @@
             </div>
         </div>
         <div class="acoes">
-            <button class="botao" (click)="criarPensamento()">Salvar</button>
+            <button [disabled]="!formulario.valid" (click)="criarPensamento()"
+                [ngClass]="habilitarBotao()">Salvar</button>
             <button class="botao" (click)="cancelar()">Cancelar</button>
         </div>
     </form>
